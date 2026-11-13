@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+body{
+    font-family: "DM Sans", sans-serif
+}
+.header-box{
+    background-color: #FAF7EE;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+     font-family: "DM Sans", sans-serif;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    background-color: #2F5D39;
+    border-radius: 100px;
+
+}
+.logo-text{
+    font-family: "Source Serif 4", serif;
+}
+.logo-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.group-1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+.group-2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    
+}
+.search-input{
+    display: inline-block;
+    height: 32px;
+    padding: 6px;
+    border-radius: 20px;
+    border: ipx solid#E3DECB;
+    border: none;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    }
+    .nav-item > a {
+        text-decoration: none;
+          color:#6F6A5C ;
+    }
+.nav-item > a:hover{
+     
+    color: black;
+}
+.search-input:focus{
+    outline: none;
+
+}
+.search-input::placeholder{
+    font-family: "DM Sans", sans-serif;
+}
+.login-link{
+    text-decoration: none;
+    color: black;
+    border: 1px solid #E3DECB;
+    display: flex;
+    padding: 8px 10px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+.basket-button{
+     display: inline-block;
+    padding: 8px 10px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+    background-color: #2F5D39;
+    border: none;
+
+
+
+}
+.message-box{
+    background-color: #223929;
+    color: #F3EFE2;
+    font-size: 13px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.yellow-dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 4px;
+    background-color: #F2B705;
+}
+.main-container{
+    display: flex;
+    background-color: #FAF7EE;
+    padding: 20px;
+}
+.top-text{
+    display: flex;
+    border: 1px solid #E3DECB;
+    padding: 5px 13px; 
+    border-radius: 30px;
+    gap: 7px;
+    align-items: center;
+    font-size: 12px;
+    width: fit-content;
+}
+.top-text > span {
+    display: inline-block;
+    padding: 5px;
+    background-color: #E4ECDA;
+    color: #2F5D39;
+    border-radius: 20px;
+    font-size: 10px;
+    background-color: white;
+}
+.text-heading{
+     font-family: "Source Serif 4", serif;
+     font-size: 60px;
+     font-weight: 400;
+}
+.text-part{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+.paragraph{
+    color: #6F6A5C;
+}
+.image-part{
+    flex: 1;
+}
+.input-part{
+    background-color: white;
+    border:1px solid #E3DECB;
+    height: 48px;
+    width: fit-content;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 5px 5px 5px 15px;
+    border-radius: 30px;
+
+}
+.input{
+    border: none;
+}
+.input:focus{
+outline: none;
+}
+.button{
+    display: inline-block;
+    border: none;
+    background-color: #2F5D39;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    
+}
+ .input::placeholder{
+    font-family: "DM Sans", sans-serif;
+    
+ }
+ .circle-group{
+    border-color: #FAF7EE;
+    display: flex;
+    align-items: center;
+ }
+ .circle-1,
+ .circle-2,
+ .circle-3 {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    
+ }
+ .circle-1{
+    background-color: #D9E2C3;
+    
+ }
+ .circle-2{
+    background-color: #F7E8D5;
+    margin-left: -6px;
+ }
+ .circle-3{
+    background-color: #EAEDDA;
+    margin-left: -6px;
+ }
+ .review-part{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+ }
+ .happy-neighbours{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: #1F2E24;
+ }
+ .review-box{
+    border-left: 2px solid #E3DECB;
+    padding-left: 10px;
+ }
+ 
