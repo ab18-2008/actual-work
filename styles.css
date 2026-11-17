@@ -211,10 +211,14 @@ outline: none;
     background-color: #EAEDDA;
     margin-left: -6px;
  }
+
+ 
  .review-part{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
+
+
 
  }
  .happy-neighbours{
@@ -227,4 +231,3 @@ outline: none;
     border-left: 2px solid #E3DECB;
     padding-left: 10px;
  }
- 
